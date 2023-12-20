@@ -834,6 +834,7 @@ section .container {
 .services .icon-box p {
   line-height: 24px;
   font-size: 1rem;
+  letter-spacing: 1px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
@@ -1139,7 +1140,7 @@ section .container {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #007bff;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
