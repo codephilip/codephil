@@ -427,11 +427,17 @@ section .container {
 
 .about-me .content ul {
   list-style: none;
-  padding: 0;
+  padding-inline-start: 0px;
 }
 
 .about-me .content ul li {
-  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.about-me .profile {
+  margin-top: 40px;
+  border-radius: 10px;
+
 }
 
 .about-me .content ul i {
@@ -442,6 +448,45 @@ section .container {
 
 .about-me .content p:last-child {
   margin-bottom: 0;
+}
+
+#about-me-resume {
+
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  transition: background 0.3s;
+  margin: 10px;
+  color: #007bff;
+}
+
+.about-me-resume {
+
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 12px 30px;
+  border: 1px solid white;
+  border-radius: 50px;
+  transition: background 0.3s;
+  margin: 10px;
+  color: #007bff;
+
+}
+
+.about-me-resume:hover {
+  background: white;
+  color: #007bff;
+
 }
 
 /*--------------------------------------------------------------
@@ -489,7 +534,7 @@ section .container {
 # Skills
 --------------------------------------------------------------*/
 .skills .progress {
-  height: 50px;
+  height: 60px;
   display: block;
   background: none;
 }
@@ -500,6 +545,7 @@ section .container {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
+  font-size: 15px;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
@@ -516,8 +562,10 @@ section .container {
 .skills .progress-bar {
   width: 1px;
   height: 10px;
+  /* border-top-right-radius: 50%;
+  border-bottom-right-radius: 50%; */
   transition: .9s;
-  background-image: linear-gradient(to right, #6aabe7, #0f50ca);
+  background-image: linear-gradient(to right, #0f50ca, #061b32);
 }
 
 /*--------------------------------------------------------------
@@ -678,6 +726,8 @@ section .container {
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+  line-height: 1.5;
+  margin-left: 20px;
 }
 
 .resume .resume-item:last-child {
