@@ -5,7 +5,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
   background: transparent;
@@ -745,8 +745,7 @@ section .container {
   padding-bottom: 10px;
   line-height: 1.5;
   margin-left: 20px;
-  font-size: 1rem;
-  font-family: "Raleway", sans-serif;
+  font-family: raleway;
 }
 
 .resume .resume-item:last-child {
@@ -830,9 +829,9 @@ section .container {
 .services .icon-box p {
   line-height: 24px;
   font-size: 1rem;
-  letter-spacing: 1px;
+
   margin-bottom: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -1069,7 +1068,7 @@ section .container {
   padding: 0;
   color: #fff;
   line-height: 24px;
-  font-size: 1rem;
+  font-size: 14px;
   margin: 0 0 0 68px;
 }
 
