@@ -27,7 +27,15 @@ body::before {
 
 @media (min-width: 1024px) {
   body::before {
-    background-attachment: fixed;
+    background-attachment: ;
+  }
+}
+
+@media (max-width: 800px) {
+  body::before {
+    background: #040404 url("../bg.jpg") top right no-repeat;
+    background-size: cover;
+    background-position: 0px 0px;
   }
 }
 
