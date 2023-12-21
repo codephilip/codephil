@@ -37,6 +37,10 @@ body::before {
     background-size: cover;
     background-position: 0px 0px;
   }
+
+  #learn-more {
+    display: none;
+  }
 }
 
 a {
