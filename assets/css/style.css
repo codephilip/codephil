@@ -490,6 +490,11 @@ section .container {
   margin-bottom: 0;
 }
 
+.bio-section {
+  line-height: 2.0;
+
+}
+
 #about-me-resume {
 
   font-family: "Raleway", sans-serif;
