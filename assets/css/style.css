@@ -33,7 +33,7 @@ body::before {
 
 @media (max-width: 800px) {
   body::before {
-    background: #040404 url("../bgdark-min.jpeg") top right no-repeat;
+    /* background: #040404 url("../bgdark-min.jpeg") top right no-repeat; */
     background-size: cover;
     background-position: 0px 0px;
   }
