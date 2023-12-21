@@ -1228,16 +1228,19 @@ section .container {
   padding: 12px 15px;
 }
 
-.contact .contact-form button[type="submit"] {
+.contact .contact-form button {
   background: #007bff;
   border: 0;
+  margin-top: 10px;
   padding: 10px 30px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
 
-.contact .contact-form button[type="submit"]:hover {
+
+
+.contact .contact-form .text-center button:hover {
   background: #007bff;
 }
 
