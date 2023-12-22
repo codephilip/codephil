@@ -394,7 +394,7 @@ section .container {
   padding: 40px;
   border-radius: 15px;
   margin-bottom: 20px;
-  box-shadow: 1px 1px 8px rgb(131 131 131 / 50%);
+  box-shadow: 1px 1px 5px rgb(131 131 131 / 50%);
 }
 
 @media (max-width: 768px) {
@@ -872,10 +872,15 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: white;
-  color: black;
+  background: hsl(0, 0%, 20%);
+  color: white;
   border-color: #007bff;
   border-radius: 10px;
+}
+
+.services .icon-box:hover i {
+  font-size: 45px;
+  transition: 0.2s ease-in-out;
 }
 
 .services .icon-box:hover .icon {
@@ -892,13 +897,14 @@ section .container {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover p {
-  color: black;
+  color: white;
 }
 
 .services .icon-box:hover h4,
 .services .icon-box:hover {
-  color: black;
+  color: white;
 }
+
 
 
 .icon-box button {
