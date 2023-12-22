@@ -394,7 +394,11 @@ section .container {
   padding: 40px;
   border-radius: 15px;
   margin-bottom: 20px;
+  box-shadow: 2px 2px 5px rgb(140 150 189 / 25%);
 }
+
+
+
 
 @media (max-width: 768px) {
   section {
@@ -404,6 +408,10 @@ section .container {
   section.section-show {
     top: 80px;
     padding: 0px 20px;
+  }
+
+  section .container:last-child {
+    margin-bottom: 75px;
   }
 }
 
