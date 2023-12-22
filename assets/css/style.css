@@ -394,7 +394,7 @@ section .container {
   padding: 40px;
   border-radius: 15px;
   margin-bottom: 20px;
-  box-shadow: 1px 2px 2px rgb(131 131 131 / 20%);
+  box-shadow: 1px 1px 8px rgb(131 131 131 / 50%);
 }
 
 @media (max-width: 768px) {
@@ -408,7 +408,7 @@ section .container {
   }
 
   section .container:last-child {
-    margin-bottom: 75px;
+    margin-bottom: 50px;
   }
 }
 
