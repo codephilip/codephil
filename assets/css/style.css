@@ -16,7 +16,7 @@ body::before {
   content: "";
   position: fixed;
   /* background: #040404 url("../img/bg8.jpg") top right no-repeat; */
-  background: #040404 url("../img/mountain.avif") top right no-repeat;
+  background: #040404 url("../img/bgdark-min.jpeg") top right no-repeat;
   background-size: cover;
   background-position: 0px 0px;
   left: 0;
@@ -403,6 +403,7 @@ section .container {
 
   section.section-show {
     top: 80px;
+    padding: 0px 20px;
   }
 }
 
