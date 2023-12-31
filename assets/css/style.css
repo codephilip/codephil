@@ -647,6 +647,11 @@ section .container {
   color: #fff;
 }
 
+/* .interests .icon-box:hover i {
+  color: black;
+  font-size: 37px;
+} */
+
 .interests .icon-box:hover {
   background: rgba(255, 255, 255, 0.12);
 }
@@ -962,12 +967,15 @@ section .container {
   margin-right: 0;
 }
 
+.portfolio-header {}
+
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(0, 0, 0, 0.6);
+
 }
 
 .portfolio .portfolio-wrap::before {
@@ -990,6 +998,8 @@ section .container {
   left: 0;
   right: 0;
   bottom: 0;
+  max-height: 200px;
+  overflow: hidden;
   text-align: center;
   z-index: 3;
   transition: all ease-in-out 0.3s;
