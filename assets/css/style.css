@@ -5,7 +5,8 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
   color: #fff;
   position: relative;
   background: transparent;
@@ -783,7 +784,7 @@ section .container {
   font-size: 18px;
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: white;
   margin-bottom: 10px;
 }
