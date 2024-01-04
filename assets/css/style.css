@@ -58,8 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
-  font-family: "Rubik Doodle Shadow";
+  font-family: 'Montserrat', sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -484,12 +483,18 @@ section .container {
 
 .about-me .content ul li {
   padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-me .profile {
   margin-top: 40px;
   border-radius: 10px;
 
+}
+
+.profile-info-li {
+  text-transform: uppercase;
+  font-family: "Rubik Doodle Shadow";
 }
 
 .about-me .content ul i {
@@ -504,6 +509,8 @@ section .container {
 
 .bio-section {
   line-height: 2.0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 
 }
 
@@ -790,7 +797,8 @@ section .container {
   padding-bottom: 10px;
   line-height: 1.5;
   margin-left: 10px;
-  font-family: raleway;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .resume .resume-item:last-child {
