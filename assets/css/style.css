@@ -487,6 +487,7 @@ section .container {
 .about-me .content ul li {
   padding-top: 10px;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
 }
 
 .about-me .profile {
