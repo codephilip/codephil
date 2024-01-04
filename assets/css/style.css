@@ -477,6 +477,7 @@ section .container {
   font-weight: 700;
   font-size: 26px;
   color: white;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .about-me .content ul {
@@ -498,7 +499,9 @@ section .container {
 
 .profile-info-li {
   text-transform: uppercase;
-  font-family: "Rubik Doodle Shadow";
+  font-family: monospace;
+  font-weight: 400;
+  letter-spacing: 3px;
 }
 
 .about-me .content ul i {
@@ -614,7 +617,7 @@ section .container {
   display: block;
   font-weight: 600;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
 }
 
