@@ -1111,6 +1111,15 @@ section .container {
   right: 15px;
 }
 
+.portfolio-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 1px 1px 2px rgb(131 131 131 / 50%);
+
+}
+
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
