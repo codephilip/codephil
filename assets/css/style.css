@@ -123,6 +123,11 @@ h6 {
   display: flex;
 }
 
+.social-links {
+  margin-top: 40px;
+  display: flex;
+}
+
 #header p span {
   color: #fff;
 
@@ -145,19 +150,50 @@ h6 {
   margin-right: 30px;
 }
 
-#header .social-links a:hover {
+.social-links a {
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  margin-right: 30px;
+}
+
+.social-links a:hover {
   background: #149ddd;
 }
 
-#header .social-links a.github:hover {
+.social-links a.github:hover {
   background: black;
 }
 
-#header .social-links a.youtube:hover {
+.social-links a.youtube:hover {
   background: #ED0301;
 }
 
-#header .social-links a.linkedin:hover {
+.social-links a.linkedin:hover {
+  background: #1D66C2;
+}
+
+.social-links a:hover {
+  background: #149ddd;
+}
+
+.social-links a.github:hover {
+  background: black;
+}
+
+.social-links a.youtube:hover {
+  background: #ED0301;
+}
+
+.social-links a.linkedin:hover {
   background: #1D66C2;
 }
 
